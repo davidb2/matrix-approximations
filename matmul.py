@@ -9,7 +9,7 @@ def discretize(xs):
   return tuple(np.int32(np.ceil(x)) for x in xs)
 
 
-def mult(A, B, epsilon=0.25, delta=0.05, decompose=False):
+def mult(A, B, epsilon=0.25, delta=0.25, decompose=False):
   '''
   Matrix multiplication using Algorithm 1 (Page 5)
   without the use of the Fast Johnson-Lindenstrauss Transform (FJLT).
