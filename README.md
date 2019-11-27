@@ -1,5 +1,5 @@
 # matrix-approximations
-Code for the paper "Improved Approximation Algorithms for Large Matrices via Random Projections" by Tamas Sarlós.
+Code for the paper ["Improved Approximation Algorithms for Large Matrices via Random Projections" by Tamas Sarlós](https://ieeexplore.ieee.org/abstract/document/4031351).
 
 Algorithms:
   * [`matmul.py`](https://github.com/ljeabmreosn/matrix-approximations/blob/master/matmul.py)
