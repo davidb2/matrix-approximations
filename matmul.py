@@ -14,7 +14,7 @@ def mult(A, B, epsilon=0.25, delta=0.25, decompose=False):
   Matrix multiplication using Algorithm 1 (Page 5)
   without the use of the Fast Johnson-Lindenstrauss Transform (FJLT).
 
-  Let C bet the output of this function. Then:
+  Let C be the output of this function. Then:
      Pr(||AB-C||_F <= 2*epsilon*||A||_F * ||B||_F) >= 1 - delta.
 
   Time complexity of:
