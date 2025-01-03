@@ -25,7 +25,7 @@ def best_rank_k_approximation(A, k):
 def proj_B_k(A, B, k):
   """Computes Π_{B,k}(A), the best rank-k approximation of A with rows in rowspan(B)."""
   A_projected = project_rows_to_rowspan(A, B)
-  return best_rank_k_approximation(A_projected, k
+  return best_rank_k_approximation(A_projected, k)
 
 
 def svd(A, k, epsilon=0.25, delta=0.25, loss=False):
