@@ -57,4 +57,4 @@ def svd(A, k, epsilon=0.25, delta=0.25, loss=False):
   Z = np.array([np.sum(s_k**2) for _, s_k, _ in PAs])
   i = np.argmin(Z)
 
-  return (PAs[i], Z[i]) if loss else PAs[i
+  return (PAs[i], Z[i]) if loss else PAs[i]
